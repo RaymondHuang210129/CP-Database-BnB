@@ -1,0 +1,55 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F5F5F5;
+  }
+
+.board{
+    width: 1000px;
+    height: 800px;
+    padding: 30px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color:; /* Choose a color for your background*/
+    color: ; /* Choose a color for your words */
+
+    letter-spacing: 1px;
+    font-weight: 200;
+
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.container{
+     border:2px solid #ccc;    
+     width:150px; 
+     height: 100px;  
+     overflow-y: scroll;
+
+     overflow-x: scroll;
+    
+     text-align:  left; 
+ }
+
+.container2{
+     border:2px solid #ccc;    
+     width:1000px; 
+     height: 400px;
+     text-align: center; 
+     overflow-y: scroll;
+     overflow-x: scroll;
+     text-align:  left; 
+ }
+
+
+
